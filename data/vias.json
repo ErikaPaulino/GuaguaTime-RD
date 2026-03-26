@@ -1,0 +1,212 @@
+[
+  {
+    "id": "d1",
+    "origen": "los mina",
+    "destino": "sabana perdida",
+    "transbordo": {
+      "detalle": "Cambio de transporte en el puente",
+      "costo_extra": { "guagua": 40, "concho": 35, "motoconcho": 50}
+    },
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 60, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 40, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 28, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d2",
+    "origen": "los mina",
+    "destino": "katanga",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 22, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 18, "costo": 35},
+      { "tipo": "motoconcho", "tiempo_min": 10, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d3",
+    "origen": "los mina",
+    "destino": "villa duarte",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 30, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 22, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 14, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d13",
+    "origen": "los mina",
+    "destino": "ensanche ozama",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 20, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 15, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 8, "costo": 40 }
+    ]
+  },
+  {
+    "id": "d4",
+    "origen": "sabana perdida",
+    "destino": "los mina",
+    "transbordo": {
+      "detalle": "Cambio de transporte en el puente",
+      "costo_extra": { "guagua": 40, "concho": 35, "motoconcho": 50}
+    },
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 60, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 40, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 28, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d5",
+    "origen": "sabana perdida",
+    "destino": "katanga",
+    "transbordo": {
+      "detalle": "Cambio de transporte en Los Mina",
+      "costo_extra": { "guagua": 40, "concho": 35, "motoconcho": 50}
+    },
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 45, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 35, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 22, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d6",
+    "origen": "sabana perdida",
+    "destino": "villa duarte",
+    "transbordo": {
+      "detalle": "Cambio de transporte en Los Mina",
+      "costo_extra": { "guagua": 40, "concho": 35, "motoconcho": 50 }
+    },
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 65, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 45, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 28, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d15",
+    "origen": "sabana perdida",
+    "destino": "ensanche ozama",
+    "transbordo": {
+      "detalle": "Cambio de transporte en Los Mina",
+      "costo_extra": { "guagua": 40, "concho": 35, "motoconcho": 50}
+    },
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 60, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 40, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 28, "costo": 50}
+    ]
+  },
+  {
+    "id": "d7",
+    "origen": "katanga",
+    "destino": "los mina",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 22, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 18, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 10, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d8",
+    "origen": "katanga",
+    "destino": "sabana perdida",
+    "transbordo": {
+      "detalle": "Cambio de transporte en Los Mina",
+      "costo_extra": { "guagua": 40, "concho": 35, "motoconcho": 50 }
+    },
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 45, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 35, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 22, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d9",
+    "origen": "katanga",
+    "destino": "villa duarte",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 28, "costo": 50 },
+      { "tipo": "concho", "tiempo_min": 22, "costo": 40 },
+      { "tipo": "motoconcho", "tiempo_min": 14, "costo": 60 }
+    ]
+  },
+  {
+    "id": "d10",
+    "origen": "villa duarte",
+    "destino": "los mina",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 30, "costo": 50 },
+      { "tipo": "concho", "tiempo_min": 22, "costo": 40 },
+      { "tipo": "motoconcho", "tiempo_min": 14, "costo": 60 }
+    ]
+  },
+  {
+    "id": "d11",
+    "origen": "villa duarte",
+    "destino": "sabana perdida",
+    "transbordo": {
+      "detalle": "Cambio de transporte en Los Mina",
+      "costo_extra": { "guagua": 40, "concho": 35, "motoconcho": 50 }
+    },
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 60, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 45, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 28, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d12",
+    "origen": "villa duarte",
+    "destino": "katanga",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 28, "costo": 50 },
+      { "tipo": "concho", "tiempo_min": 22, "costo": 40 },
+      { "tipo": "motoconcho", "tiempo_min": 14, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d14",
+    "origen": "villa duarte",
+    "destino": "ensanche ozama",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 15, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 12, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 6, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d16",
+    "origen": "ensanche ozama",
+    "destino": "los mina",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 20, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 15, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 8, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d17",
+    "origen": "ensanche ozama",
+    "destino": "villa duarte",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 15, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 12, "costo": 35 },
+      { "tipo": "motoconcho", "tiempo_min": 6, "costo": 50 }
+    ]
+  },
+  {
+    "id": "d13",
+    "origen": "katanga",
+    "destino": "ensanche ozama",
+    "tipos": [
+      { "tipo": "guagua", "tiempo_min": 29, "costo": 40 },
+      { "tipo": "concho", "tiempo_min": 20, "costo": 35},
+      { "tipo": "motoconcho", "tiempo_min": 12, "costo": 50 }
+    ]
+  }
+]
+
+

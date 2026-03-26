@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuaguaTime RD - Simulador de Transporte</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon"  type="image/png"  href="imagenes/icono.svg">
+</head>
+<body>
+
+    <nav class="boton-superiores">
+
+         <a href="index.html" class="logo-link">
+        <img src="imagenes/logo.png" alt="Logo de GuaguaTime RD">
+    </a> 
+    </nav>
+
+    <main class="contenedor-principal">
+
+        <section class="seccion-busqueda" aria-labelledby="titulo-busqueda">
+            <h2 id="titulo-busqueda">Planifica tu viaje</h2>
+            
+            <form id="formulario-ruta" class="formulario">
+                <div class="campo-formulario">
+                    <label for="origen">Sector Origen:</label>
+                    <select id="origen" required>
+                        <option value="">Selecciona origen...</option>
+                        </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="destino">Sector Destino:</label>
+                    <select id="destino" required>
+                        <option value="">Selecciona destino...</option>
+                        </select>
+                </div>
+
+                <fieldset class="condiciones">
+                    <legend>Condiciones actuales del tráfico</legend>
+                    <label>
+                        <input type="checkbox" name="condicion" value="lluvia"> Lluvia
+                    </label>
+                    <label>
+                        <input type="checkbox" name="condicion" value="tapon"> Hora Pico
+                    </label>
+                    <label>
+                        <input type="checkbox" name="condicion" value="paro"> Paro de Transporte
+                    </label>
+                </fieldset>
+
+                <div class="campo-formulario">
+                    <label for="ordenar">Ordenar por:</label>
+                    <select id="ordenar">
+                        <option value="tiempo">Menor Tiempo</option>
+                        <option value="costoTotal">Menor Costo</option>
+                        <option value="transbordos">Menos Transbordos</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="boton-enviar">Calcular Rutas</button>
+            </form>
+        </section>
+
+         <section class="seccion-favoritos" aria-labelledby="titulo-favoritos">
+            <h2 id="titulo-favoritos">Rutas Favoritas</h2>
+            <div id="favoritos-lista" class="lista-favoritos">
+                </div>
+         </section>
+
+           <section class="seccion-resultados" aria-labelledby="titulo-resultados">
+            <h2 id="titulo-resultados">Rutas Disponibles</h2>
+            
+            <div id="resultados" class="lista-favoritos">
+                <p class="placeholder-texto">Selecciona un origen y destino para calcular tu viaje.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 GuaguaTime RD.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

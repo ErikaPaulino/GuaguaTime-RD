@@ -1,0 +1,35 @@
+[
+  {
+    "id": "c1",
+    "nombre": "lluvia",
+    "descripcion": "Lluvia en la zona",
+    "tiempo_pct": 15,
+    "costo_extra": {
+      "guagua": 0,
+      "concho": 0,
+      "motoconcho": 15
+    }
+  },
+  {
+    "id": "c2",
+    "nombre": "tapon",
+    "descripcion": "hora pico",
+    "tiempo_pct": 25,
+    "costo_extra": {
+      "guagua": 0,
+      "concho": 5,
+      "motoconcho": 0
+    }
+  },
+  {
+    "id": "c3",
+    "nombre": "paro",
+    "descripcion": "Paro de transporte",
+    "tiempo_pct": 100,
+    "costo_extra": {
+      "guagua": 15,
+      "concho": 20,
+      "motoconcho": 10
+    }
+  }
+]
