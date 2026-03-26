@@ -8,13 +8,13 @@ window.onload = async () => {
 
 async function cargarDatos() {
 
-  const temporalRutas = await fetch("../data/vias.json");
+  const temporalRutas = await fetch("data/vias.json");
   rutas = await temporalRutas.json();
 
-  const temporalCondiciones = await fetch("../data/condiciones.json");
+  const temporalCondiciones = await fetch("data/condiciones.json");
   condiciones = await temporalCondiciones.json();
 
-  const temporalSectores = await fetch("../data/sectores.json");
+  const temporalSectores = await fetch("data/sectores.json");
   sectores = await temporalSectores.json();
 
 }
