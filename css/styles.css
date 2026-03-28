@@ -78,7 +78,7 @@ a{
 
 /* Secciones */
 .seccion-busqueda,
-.seccion-resultados
+.seccion-resultados,
 .seccion-favoritos {
     background: var(--blanco-puro);
     padding: 10px;
@@ -161,8 +161,6 @@ select, button {
     .btn {
         font-size: 14px;
         padding: 0.5em 1.2em;
-        margin-top:15px;
-        margin-bottom:20px;
     }
     .seccion-resultados{
         margin-top: 40px;
