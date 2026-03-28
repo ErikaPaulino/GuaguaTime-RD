@@ -78,7 +78,7 @@ a{
 
 /* Secciones */
 .seccion-busqueda,
-.seccion-resultados,
+.seccion-resultados
 .seccion-favoritos {
     background: var(--blanco-puro);
     padding: 10px;
