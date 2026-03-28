@@ -147,6 +147,9 @@ select, button {
         text-align: center;
         padding: 20px;
     }
+     .contenedor-principal {
+        grid-template-columns: 1fr; 
+    }
 
     .inicio-contenedor {
         max-width: 100%;
@@ -165,4 +168,5 @@ select, button {
     .seccion-resultados{
         margin-top: 40px;
     }
+
 }
